@@ -1,0 +1,28 @@
+adm0,policy,beta,se
+USA,No gathering - original,0.011,0.035
+USA,Social distance - original,-0.246,0.044
+USA,Quarantine positive cases - original,-0.061,0.031
+USA,Paid sick leave - original,-0.027,0.087
+USA,Work from home - original,-0.047,0.017
+USA,School closure - original,0.026,0.031
+USA,Travel ban - original,-0.008,0.033
+USA,Business closure - original,-0.055,0.021
+USA,Religious closure - original,0.008,0.02
+USA,Home isolation - original,-0.03,0.017
+USA,Slow the Spread Guidelines - original,0.049,0.037
+USA,combined policy - original,-0.38,0.095
+USA,No gathering,0.004,0.042
+USA,Social distance,-0.051,0.025
+USA,Quarantine positive cases,-0.049,0.024
+USA,Paid sick leave,0.031,0.042
+USA,Work from home,-0.027,0.018
+USA,School closure,-0.002,0.028
+USA,Travel ban,-0.036,0.019
+USA,Business closure,-0.044,0.018
+USA,Religious closure,0.004,0.016
+USA,Home isolation,-0.075,0.016
+USA,Slow the Spread Guidelines,0.056,0.036
+USA,combined policy,-0.188,0.052
+USA,no_policy_rate,0.283,0.065
+USA,SWE comparator,0.078,0.072
+USA,KOR comparator,0.137,0.135

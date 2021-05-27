@@ -1,0 +1,26 @@
+adm0,policy,beta,se
+"USA","No gathering - original",.011,.035
+"USA","Social distance - original",-.246,.044
+"USA","Quarantine positive cases - original",-.061,.031
+"USA","Paid sick leave - original",-.027,.087
+"USA","Work from home - original",-.047,.017
+"USA","School closure - original",.026,.031
+"USA","Travel ban - original",-.008,.033
+"USA","Business closure - original",-.055,.021
+"USA","Religious closure - original",.008,.02
+"USA","Home isolation - original",-.03,.017
+"USA","Slow the Spread Guidelines - original",.049,.037
+"USA","combined policy - original",-.38,.095
+"USA","No gathering",.004,.042
+"USA","Social distance",-.051,.025
+"USA","Quarantine positive cases",-.049,.024
+"USA","Paid sick leave",.031,.042
+"USA","Work from home",-.027,.018
+"USA","School closure",-.002,.028
+"USA","Travel ban",-.036,.019
+"USA","Business closure",-.044,.018
+"USA","Religious closure",.004,.016
+"USA","Home isolation",-.075,.016
+"USA","Slow the Spread Guidelines",.056,.036
+"USA","combined policy",-.188,.052
+"USA","no_policy_rate",.283,.065

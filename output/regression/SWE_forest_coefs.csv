@@ -1,0 +1,9 @@
+adm0,policy,beta,se
+"SWE","School closure",-.085,.027
+"SWE","Work from home",.006,.01
+"SWE","No public gathering",-.034,.012
+"SWE","No private gathering",-.171,.037
+"SWE","Travel ban domestic",.01,.017
+"SWE","Travel ban international",.017,.02
+"SWE","combined policy",-.256,.033
+"SWE","no_policy_rate",.328,.05

@@ -1,0 +1,12 @@
+adm0,policy,beta,se
+FRA,National lockdown - original,0.083,0.052
+FRA,Social distance - original,-0.243,0.072
+FRA,School closure - original,-0.009,0.042
+FRA,combined policy - original,-0.169,0.02
+FRA,National lockdown,-0.095,0.016
+FRA,Social distance,-0.1,0.051
+FRA,School closure,-0.006,0.031
+FRA,combined policy,-0.2,0.043
+FRA,no_policy_rate,0.352,0.042
+FRA,SWE comparator,0.069,0.06
+FRA,KOR comparator,0.13,0.129

@@ -1,0 +1,10 @@
+adm0,policy,beta,se
+NL,"School clos, work home, no private gathering",-0.049,0.018
+NL,No public gathering,-0.101,0.022
+NL,Home isolation,-0.052,0.024
+NL,Travel ban domestic,0.002,0.016
+NL,Travel ban international,-0.097,0.011
+NL,combined policy,-0.297,0.017
+NL,no_policy_rate,0.47,0.043
+NL,SWE comparator,-0.026,0.044
+NL,KOR comparator,0.013,0.121

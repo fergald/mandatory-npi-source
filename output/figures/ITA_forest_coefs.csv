@@ -1,0 +1,16 @@
+adm0,policy,beta,se
+ITA,"Social distance, business closure - original",0.038,0.053
+ITA,School closure - original,-0.079,0.072
+ITA,Travel ban - original,-0.507,0.068
+ITA,Quarantine positive cases - original,-0.02,0.026
+ITA,Home isolation - original,0.024,0.044
+ITA,combined policy - original,-0.544,0.078
+ITA,"Social distance, business closure",0.058,0.025
+ITA,School closure,-0.109,0.079
+ITA,Travel ban,-0.082,0.02
+ITA,Quarantine positive cases,-0.056,0.056
+ITA,Home isolation,-0.058,0.052
+ITA,combined policy,-0.247,0.08
+ITA,no_policy_rate,0.365,0.036
+ITA,SWE comparator,0.03,0.092
+ITA,KOR comparator,0.084,0.144

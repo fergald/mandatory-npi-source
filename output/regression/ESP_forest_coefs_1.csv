@@ -1,0 +1,6 @@
+adm0,policy,beta,se
+"ESP","School clos, work home, trvl ban local",.125,.051
+"ESP","No public / private gathering, trvl ban intl",.033,.032
+"ESP","Transit suspension, home isolation",-.181,.025
+"ESP","combined policy",-.023,.049
+"ESP","no_policy_rate",.234,.053

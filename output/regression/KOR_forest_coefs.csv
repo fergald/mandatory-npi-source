@@ -1,0 +1,12 @@
+adm0,policy,beta,se
+"KOR","Social distance (optional) - original",-.083,.038
+"KOR","Social distance (mandatory) - original",-.304,.151
+"KOR","Emergency declaration - original",-.127,.046
+"KOR","Quarantine positive cases - original",.02,.019
+"KOR","combined policy - original",-.494,.15
+"KOR","Social distance (optional)",-.245,.063
+"KOR","Social distance (mandatory)",.056,.136
+"KOR","Emergency declaration",-.142,.039
+"KOR","Quarantine positive cases",.003,.009
+"KOR","combined policy",-.328,.121
+"KOR","no_policy_rate",.246,.047
