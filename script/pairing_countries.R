@@ -1,7 +1,7 @@
 # Library used
 library(tidyverse)
 
-setwd(str_c(dirname(getwd()), "/output/regression/"))
+setwd("output/regression/")
 
 # Combine a reference country (SWE, KOR) with another country 
 combine_pairs <- function(ref_country, country_2) {

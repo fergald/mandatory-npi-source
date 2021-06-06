@@ -39,7 +39,7 @@ path_policy_files <- c(
   "h3_contacttracing"
 )
 # Output file path
-path_output <- "/Users/seungwonho/Dropbox/covid_npi_analysis/output/"
+path_output <- "output/"
 
 # Temp file path
 path_temp <- str_c(path_output, "temp/")
@@ -119,7 +119,7 @@ get_country_policies <- function(file_name, country) {
     arrange(date) %>% 
     select(-X1, -X2) %>%
     {if(file_name != path_policy_files[1]) select(., -date) else .} %>% 
-    write_csv(str_c(path_temp, file_name, "_", country,".csv"))
+    write_csv(str_c("../", path_temp, file_name, "_", country,".csv"))
 }
 
 walk2(path_policy_files, "Sweden", get_country_policies)
@@ -138,6 +138,7 @@ combine_policies <- function(country, adm0) {
 country_list_add <- c("Sweden", "United Kingdom", "Germany", "Spain", "Netherlands")
 adm0_list_add <- c("SWE", "UK", "GER", "ESP", "NL")
 
+setwd("..")
 walk2(country_list_add, adm0_list_add, combine_policies)
 
 # Remove intermediary policy files
