@@ -61,7 +61,7 @@ lab var D_l_cum_confirmed_cases "change in log(cum_confirmed_cases)"
 
 
 // quality control: cannot have negative changes in cumulative values
-replace D_l_cum_confirmed_cases = . if D_l_cum_confirmed_cases < 0 
+replace D_l_cum_confirmed_cases = . if D_l_cum_confirmed_cases <= 0
 
 //------------------diagnostic
 
