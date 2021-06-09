@@ -2,7 +2,7 @@ library(RStata)
 library(stringr)
 
 path_script <- str_c(getwd(), "/script/")
-path_stata <- "/Applications/Stata/StataMP.app/Contents/MacOS/stata-mp"
+path_stata <- "/rds/bear-apps/2020a/EL8-has/software/Stata/16/stata-mp"
 version_stata <- 16
 
 # Initial data processing for the additional 5 countries (England, Germany, Netherlands, Spain, Sweden)
