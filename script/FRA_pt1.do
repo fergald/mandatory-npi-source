@@ -57,7 +57,10 @@ tab adm1_name if longest_series==1 & cum_confirmed_cases!=.
 // construct dep vars
 lab var cum_confirmed_cases "cumulative confirmed cases"
 
-gen l_cum_confirmed_cases = log(cum_confirmed_cases)
+gen daily_confirmed_cases = D.cum_confirmed_cases
+lab var daily_confirmed_cases "daily_confirmed_cases"
+
+gen l_cum_confirmed_cases = log(daily_confirmed_cases)
 lab var l_cum_confirmed_cases "log(cum_confirmed_cases)"
 
 gen D_l_cum_confirmed_cases = D.l_cum_confirmed_cases 

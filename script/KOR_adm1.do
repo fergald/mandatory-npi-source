@@ -58,7 +58,10 @@ lab var active_cases "active cases"
 gen l_active_cases = log(active_cases)
 lab var l_active_cases "log(active_cases)"
 
-g l_cum_confirmed_cases = log(cum_confirmed_cases)
+gen daily_confirmed_cases = D.cum_confirmed_cases
+lab var daily_confirmed_cases "daily_confirmed_cases"
+
+g l_cum_confirmed_cases = log(daily_confirmed_cases)
 lab var l_active_cases "log(cum_confirmed_cases)"
 
 gen D_l_active_cases = D.l_active_cases 
