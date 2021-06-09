@@ -128,7 +128,8 @@ get_d_l_cases <- function(country) {
     summarize(cum_confirmed_cases = sum(cum_confirmed_cases, na.rm = TRUE)) %>% 
     filter(cum_confirmed_cases > 0) %>% 
     mutate(
-      l_cum_confirmed_cases = log(cum_confirmed_cases),
+      daily_cases = cum_confirmed_cases - lag(cum_confirmed_cases),
+      l_cum_confirmed_cases = log(daily_cases),
       lag_1 = lag(l_cum_confirmed_cases),
       #d_l_cum_confirmed_cases = diff(l_cum_confirmed_cases)
       !!str_c(country, "_d_l_cum_cases") := l_cum_confirmed_cases - lag_1
