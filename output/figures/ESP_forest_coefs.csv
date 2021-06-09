@@ -1,8 +1,8 @@
 adm0,policy,beta,se
-ESP,"School clos, work home, trvl ban local",0.125,0.051
-ESP,"No public / private gathering, trvl ban intl",0.033,0.032
-ESP,"Transit suspension, home isolation",-0.181,0.025
-ESP,combined policy,-0.023,0.049
-ESP,no_policy_rate,0.234,0.053
-ESP,SWE comparator,0.244,0.075
-ESP,KOR comparator,0.296,0.131
+ESP,"School clos, work home, trvl ban local",0.234,0.222
+ESP,"No public / private gathering, trvl ban intl",-0.273,0.059
+ESP,"Transit suspension, home isolation",-0.283,0.057
+ESP,combined policy,-0.321,0.223
+ESP,no_policy_rate,0.749,0.149
+ESP,SWE comparator,0.128,0.312
+ESP,KOR comparator,-0.018,0.211

@@ -1,10 +1,10 @@
 adm0,policy,beta,se
-IRN,"Trvl ban opt, work home, school clos (natl) - orig",-0.334,0.089
-IRN,Home isolation - original,-0.154,0.033
-IRN,combined policy - original,-0.487,0.076
-IRN,"Trvl ban opt, work home, school clos (natl)",-0.161,0.065
-IRN,Home isolation,-0.164,0.035
-IRN,combined policy,-0.325,0.056
-IRN,no_policy_rate,0.419,0.058
-IRN,SWE comparator,-0.069,0.07
-IRN,KOR comparator,-0.016,0.134
+IRN,"Trvl ban opt, work home, school clos (natl) - orig",1.542,0.466
+IRN,Home isolation - original,-0.424,0.08
+IRN,combined policy - original,1.119,0.461
+IRN,"Trvl ban opt, work home, school clos (natl)",0.707,0.204
+IRN,Home isolation,-0.392,0.085
+IRN,combined policy,0.316,0.201
+IRN,no_policy_rate,0.344,0.344
+IRN,SWE comparator,0.806,0.314
+IRN,KOR comparator,0.605,0.228

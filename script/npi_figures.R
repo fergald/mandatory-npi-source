@@ -128,8 +128,7 @@ get_d_l_cases <- function(country) {
     summarize(cum_confirmed_cases = sum(cum_confirmed_cases, na.rm = TRUE)) %>% 
     filter(cum_confirmed_cases > 0) %>% 
     mutate(
-      daily_cases = cum_confirmed_cases - lag(cum_confirmed_cases),
-      l_cum_confirmed_cases = log(daily_cases),
+      l_cum_confirmed_cases = log(cum_confirmed_cases),
       lag_1 = lag(l_cum_confirmed_cases),
       #d_l_cum_confirmed_cases = diff(l_cum_confirmed_cases)
       !!str_c(country, "_d_l_cum_cases") := l_cum_confirmed_cases - lag_1
@@ -183,7 +182,7 @@ growth_plot <-
   geom_hline(yintercept = 0) +
   scale_y_continuous(position = "right") +
   facet_grid(country ~ .) +
-  coord_cartesian(ylim = c(-3.0, 3.0)) +
+  coord_cartesian(ylim = c(0, 1.0)) +
   labs(
     y = expression(paste("Growth rate of active cases (", Delta, "log per day)"))
   ) +

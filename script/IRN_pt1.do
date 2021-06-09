@@ -61,7 +61,7 @@ lab var D_l_cum_confirmed_cases "change in log(cum_confirmed_cases)"
 
 
 //quality control
-replace D_l_cum_confirmed_cases = . if D_l_cum_confirmed_cases <= 0 // cannot have negative changes in cumulative values
+replace D_l_cum_confirmed_cases = . if D_l_cum_confirmed_cases < 0 // cannot have negative changes in cumulative values
 
 // note: missing case data on 3/2/2020 and 3/3/2020
 replace D_l_cum_confirmed_cases = . if t == 21976 | t == 21977 // dropping obs when no obs were reported

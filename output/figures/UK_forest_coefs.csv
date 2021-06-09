@@ -1,10 +1,10 @@
 adm0,policy,beta,se
-UK,School closure,-0.017,0.022
-UK,"Work home, no public gathering, home iso",-0.032,0.022
-UK,No private gathering,-0.074,0.019
-UK,Transit suspension,0.007,0.02
-UK,Travel ban domestic,0.019,0.024
-UK,combined policy,-0.097,0.017
-UK,no_policy_rate,0.227,0.038
-UK,SWE comparator,0.158,0.035
-UK,KOR comparator,0.229,0.129
+UK,School closure,0.092,0.095
+UK,"Work home, no public gathering, home iso",-0.385,0.062
+UK,No private gathering,-0.047,0.047
+UK,Transit suspension,-0.185,0.11
+UK,Travel ban domestic,-0.01,0.082
+UK,combined policy,-0.536,0.053
+UK,no_policy_rate,0.731,0.133
+UK,SWE comparator,-0.012,0.245
+UK,KOR comparator,-0.189,0.145

@@ -1,9 +1,9 @@
 adm0,policy,beta,se
-"SWE","School closure",-.085,.027
-"SWE","Work from home",.006,.01
-"SWE","No public gathering",-.034,.012
-"SWE","No private gathering",-.171,.037
-"SWE","Travel ban domestic",.01,.017
-"SWE","Travel ban international",.017,.02
-"SWE","combined policy",-.256,.033
-"SWE","no_policy_rate",.328,.05
+"SWE","School closure",-.074,.106
+"SWE","Work from home",.073,.088
+"SWE","No public gathering",.037,.068
+"SWE","No private gathering",-.427,.254
+"SWE","Travel ban domestic",-.141,.099
+"SWE","Travel ban international",-.022,.128
+"SWE","combined policy",-.554,.245
+"SWE","no_policy_rate",1.004,.239

@@ -1,8 +1,8 @@
 adm0,policy,beta,se
-"NL","School clos, work home, no private gathering",-.049,.018
-"NL","No public gathering",-.101,.022
-"NL","Home isolation",-.052,.024
-"NL","Travel ban domestic",.002,.016
-"NL","Travel ban international",-.097,.011
-"NL","combined policy",-.297,.017
-"NL","no_policy_rate",.47,.043
+"NL","School clos, work home, no private gathering",-.077,.037
+"NL","No public gathering",-.037,.06
+"NL","Home isolation",0,0
+"NL","Travel ban domestic",.009,.036
+"NL","Travel ban international",-.081,.018
+"NL","combined policy",-.186,.057
+"NL","no_policy_rate",.326,.046

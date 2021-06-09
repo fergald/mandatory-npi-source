@@ -1,12 +1,12 @@
 adm0,policy,beta,se
-GER,School closure,-0.062,0.039
-GER,Work from home,-0.053,0.008
-GER,No public gathering,-0.056,0.01
-GER,No private gathering,-0.079,0.016
-GER,Home isolation,0.047,0.014
-GER,Travel ban domestic,-0.12,0.015
-GER,Travel ban international,0.049,0.025
-GER,combined policy,-0.274,0.03
-GER,no_policy_rate,0.32,0.016
-GER,SWE comparator,-0.008,0.045
-GER,KOR comparator,0.05,0.126
+GER,School closure,-0.087,0.06
+GER,Work from home,0.039,0.034
+GER,No public gathering,-0.071,0.062
+GER,No private gathering,-0.046,0.047
+GER,Home isolation,-0.185,0.069
+GER,Travel ban domestic,-0.113,0.031
+GER,Travel ban international,0.027,0.052
+GER,combined policy,-0.434,0.058
+GER,no_policy_rate,0.635,0.136
+GER,SWE comparator,0.067,0.269
+GER,KOR comparator,-0.078,0.134

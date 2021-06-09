@@ -1,10 +1,10 @@
 adm0,policy,beta,se
-"GER","School closure",-.062,.039
-"GER","Work from home",-.053,.008
-"GER","No public gathering",-.056,.01
-"GER","No private gathering",-.079,.016
-"GER","Home isolation",.047,.014
-"GER","Travel ban domestic",-.12,.015
-"GER","Travel ban international",.049,.025
-"GER","combined policy",-.274,.03
-"GER","no_policy_rate",.32,.016
+"GER","School closure",-.087,.06
+"GER","Work from home",.039,.034
+"GER","No public gathering",-.071,.062
+"GER","No private gathering",-.046,.047
+"GER","Home isolation",-.185,.069
+"GER","Travel ban domestic",-.113,.031
+"GER","Travel ban international",.027,.052
+"GER","combined policy",-.434,.058
+"GER","no_policy_rate",.635,.136

@@ -1,28 +1,28 @@
 adm0,policy,beta,se
-USA,No gathering - original,0.011,0.035
-USA,Social distance - original,-0.246,0.044
-USA,Quarantine positive cases - original,-0.061,0.031
-USA,Paid sick leave - original,-0.027,0.087
-USA,Work from home - original,-0.047,0.017
-USA,School closure - original,0.026,0.031
-USA,Travel ban - original,-0.008,0.033
-USA,Business closure - original,-0.055,0.021
-USA,Religious closure - original,0.008,0.02
-USA,Home isolation - original,-0.03,0.017
-USA,Slow the Spread Guidelines - original,0.049,0.037
-USA,combined policy - original,-0.38,0.095
-USA,No gathering,0.004,0.042
-USA,Social distance,-0.051,0.025
-USA,Quarantine positive cases,-0.049,0.024
-USA,Paid sick leave,0.031,0.042
-USA,Work from home,-0.027,0.018
-USA,School closure,-0.002,0.028
-USA,Travel ban,-0.036,0.019
-USA,Business closure,-0.044,0.018
-USA,Religious closure,0.004,0.016
-USA,Home isolation,-0.075,0.016
-USA,Slow the Spread Guidelines,0.056,0.036
-USA,combined policy,-0.188,0.052
-USA,no_policy_rate,0.283,0.065
-USA,SWE comparator,0.078,0.072
-USA,KOR comparator,0.137,0.135
+USA,No gathering - original,-0.109,0.177
+USA,Social distance - original,-0.455,0.205
+USA,Quarantine positive cases - original,0.018,0.133
+USA,Paid sick leave - original,-0.056,0.416
+USA,Work from home - original,-0.078,0.093
+USA,School closure - original,0.194,0.122
+USA,Travel ban - original,0.015,0.208
+USA,Business closure - original,-0.191,0.078
+USA,Religious closure - original,0.034,0.085
+USA,Home isolation - original,0.054,0.074
+USA,Slow the Spread Guidelines - original,-0.313,0.152
+USA,combined policy - original,-0.888,0.46
+USA,No gathering,-0.217,0.247
+USA,Social distance,-0.218,0.093
+USA,Quarantine positive cases,0.154,0.124
+USA,Paid sick leave,0.09,0.193
+USA,Work from home,0.064,0.065
+USA,School closure,0.166,0.118
+USA,Travel ban,-0.192,0.088
+USA,Business closure,-0.195,0.082
+USA,Religious closure,0.048,0.062
+USA,Home isolation,-0.135,0.054
+USA,Slow the Spread Guidelines,-0.193,0.137
+USA,combined policy,-0.627,0.201
+USA,no_policy_rate,1.126,0.2
+USA,SWE comparator,-0.185,0.374
+USA,KOR comparator,-0.322,0.232

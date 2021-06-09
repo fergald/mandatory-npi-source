@@ -1,14 +1,14 @@
 adm0,policy,beta,se
-"ITA","Social distance, business closure - original",.038,.053
-"ITA","School closure - original",-.079,.072
-"ITA","Travel ban - original",-.507,.068
-"ITA","Quarantine positive cases - original",-.02,.026
-"ITA","Home isolation - original",.024,.044
-"ITA","combined policy - original",-.544,.078
-"ITA","Social distance, business closure",.058,.025
-"ITA","School closure",-.109,.079
-"ITA","Travel ban",-.082,.02
-"ITA","Quarantine positive cases",-.056,.056
-"ITA","Home isolation",-.058,.052
-"ITA","combined policy",-.247,.08
-"ITA","no_policy_rate",.365,.036
+"ITA","Social distance, business closure - original",.098,.488
+"ITA","School closure - original",-.282,.303
+"ITA","Travel ban - original",-.338,.405
+"ITA","Quarantine positive cases - original",-.048,.202
+"ITA","Home isolation - original",-.213,.206
+"ITA","combined policy - original",-.783,.332
+"ITA","Social distance, business closure",.265,.276
+"ITA","School closure",-.622,.415
+"ITA","Travel ban",-.171,.206
+"ITA","Quarantine positive cases",-.476,.19
+"ITA","Home isolation",.323,.24
+"ITA","combined policy",-.681,.388
+"ITA","no_policy_rate",1.355,.267

@@ -1,10 +1,10 @@
 adm0,policy,beta,se
-"FRA","National lockdown - original",.083,.052
-"FRA","Social distance - original",-.243,.072
-"FRA","School closure - original",-.009,.042
-"FRA","combined policy - original",-.169,.02
-"FRA","National lockdown",-.095,.016
-"FRA","Social distance",-.1,.051
-"FRA","School closure",-.006,.031
-"FRA","combined policy",-.2,.043
-"FRA","no_policy_rate",.352,.042
+"FRA","National lockdown - original",.152,.28
+"FRA","Social distance - original",-.577,.427
+"FRA","School closure - original",.062,.287
+"FRA","combined policy - original",-.363,.146
+"FRA","National lockdown",-.25,.078
+"FRA","Social distance",-.301,.254
+"FRA","School closure",.144,.157
+"FRA","combined policy",-.407,.27
+"FRA","no_policy_rate",.917,.224
