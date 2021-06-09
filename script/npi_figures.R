@@ -183,7 +183,7 @@ growth_plot <-
   geom_hline(yintercept = 0) +
   scale_y_continuous(position = "right") +
   facet_grid(country ~ .) +
-  coord_cartesian(ylim = c(0, 1.0)) +
+  coord_cartesian(ylim = c(-3.0, 3.0)) +
   labs(
     y = expression(paste("Growth rate of active cases (", Delta, "log per day)"))
   ) +
