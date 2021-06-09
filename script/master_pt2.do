@@ -1,7 +1,7 @@
 clear all
 
 * local wd  "<<name of directory containing folder covid_npi_analysis>>"
-global path "`wd'/covid_npi_analysis"
+global path "."
 
 // Run comparison regressions for each comparison country
 
