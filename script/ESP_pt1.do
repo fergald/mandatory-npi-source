@@ -4,6 +4,11 @@ clear all
 set scheme s1color
 //-----------------------setup
 
+ssc install ivreg2 // 30/06/21 Colin adds
+ssc install ivreghdfe // 08/07/21 Colin adds
+ssc install xtqptest // 14/06/21 Colin adds: install to run serial corr test
+ssc install actest // 15/06/21 Colin adds: to run serial corr test
+
 // import end of sample cut-off 
 import delim using "$path/data/processing/cutoff_dates.csv", clear 
 keep if tag == "default"
@@ -19,6 +24,8 @@ gen dow = dow(t)
 gen month = month(t)
 gen year = year(t)
 gen day = day(t)
+gen elapsed_t = t - t[0]
+gen exp_elapsed_t = exp(elapsed_t)
 
 // clean up
 encode adm1_name, gen(adm1_id)
@@ -49,6 +56,9 @@ tab adm1_name if longest_series==1 & cum_confirmed_cases!=.
 
 //construct dep vars
 lab var cum_confirmed_cases "cumulative confirmed cases"
+
+gen daily_confirmed_cases = D.cum_confirmed_cases
+lab var daily_confirmed_cases "daily_confirmed_cases"
 
 gen l_cum_confirmed_cases = log(cum_confirmed_cases)
 lab var l_cum_confirmed_cases "log(cum_confirmed_cases)"
@@ -102,6 +112,23 @@ outsheet using "$path/output/regression/ESP_reg_data_10.csv", comma replace
 // main regression model
 reghdfe D_l_cum_confirmed_cases p_esp_*, absorb(i.adm1_id i.dow, savefe) cluster(t) resid
 
+// Sergio C suggested equivalent to BOBI regresion model: implemented 29/06/21
+// xtreg D_l_cum_confirmed_cases p_esp_* i.dow, vce(cluster t) fe
+// 08/07/21 command above generates `panels are not nested in clusters' error
+
+// Colin serial correlation diagnostic: 13/06/21
+// xtqptest _xtreg_resid, lags(1) // can't run w/o running xtregfirst
+// actest _reghdfe_resid, lags(1)
+
+// Sergio C proposed more robust SEs; implemented 29/06/21
+reghdfe D_l_cum_confirmed_cases p_esp_*, absorb(i.adm1_id i.dow, savefe) cluster(adm1_id t) resid
+
+reghdfe D_l_cum_confirmed_cases p_esp_*, absorb(i.adm1_id i.dow, savefe) dkraay(#) resid
+
+list _reghdfe_resid
+browse _reghdfe_resid
+
+list _xtreg_resid
 
 tempfile results_file
 postfile results str18 adm0 str50 policy beta se using `results_file', replace
